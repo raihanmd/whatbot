@@ -10,6 +10,7 @@ const NavigationBar = () => {
           <Nav className="ms-auto">
             <Nav.Link href="#">Introduction</Nav.Link>
             <Nav.Link href="#why">Kenapa Whatbot?</Nav.Link>
+            <Nav.Link href="#feature">Feature</Nav.Link>
             <Nav.Link href="#pricing">Pricing</Nav.Link>
           </Nav>
         </Navbar.Collapse>

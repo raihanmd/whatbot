@@ -1,7 +1,15 @@
+import CarouselHero from "../components/CaouselHero";
+import Introduction from "../components/Introduction";
+import NavigationBar from "../components/NavigationBar";
+
 const Main = () => {
   return (
     <div className="main">
-      <h2>Main Section</h2>
+      <div className="hero">
+        <NavigationBar />
+        <CarouselHero />
+      </div>
+      <Introduction />
     </div>
   );
 };
