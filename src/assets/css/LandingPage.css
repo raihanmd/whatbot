@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Quicksand:wght@500;700&display=swap");
+* {
+  font-family: "Quicksand", sans-serif;
+}
+.hero {
+  height: 100vh;
+  background: rgb(31, 156, 219);
+  /* background: rgb(140, 188, 8); */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 77%);
+}
+.nav-brand {
+  font-size: 1.5rem;
+  font-family: "Dosis", sans-serif;
+}
+.my-carousel {
+  height: 80%;
+}
+.my-carousel-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 70vh;
+}
+.my-carousel-content h3 {
+  font-size: 3rem;
+  font-weight: 800;
+}
