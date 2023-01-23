@@ -8,7 +8,7 @@ const NavigationBar = () => {
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#">Introduction</Nav.Link>
+            <Nav.Link href="#intro">Introduction</Nav.Link>
             <Nav.Link href="#why">Kenapa Whatbot?</Nav.Link>
             <Nav.Link href="#feature">Feature</Nav.Link>
             <Nav.Link href="#pricing">Pricing</Nav.Link>
